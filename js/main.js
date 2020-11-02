@@ -27,3 +27,7 @@ $('.live-reports__slider').slick({
   prevArrow: '<button type="button" class="slick-prev slick-arrow"><img src="images/slider-arrow.png" alt=""></button>',
   nextArrow: '<button type="button" class="slick-next slick-arrow"><img src="images/slider-arrow.png" alt=""></button>'
 });
+
+$('.menu-btn').on('click', function () {
+  $('.menu__list').toggleClass('menu__list--active')
+});
