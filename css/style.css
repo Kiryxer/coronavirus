@@ -556,13 +556,11 @@ a {
   margin-bottom: 29px;
   font-size: 52px;
   line-height: 72px;
-  text-transform: capitalize;
 }
 
 .header__content-descr {
   font-size: 24px;
   line-height: 190%;
-  text-transform: capitalize;
   margin-bottom: 54px;
 }
 
@@ -570,7 +568,6 @@ a {
   font-weight: bold;
   font-size: 24px;
   line-height: 29px;
-  text-transform: capitalize;
   color: #ffffff;
   background: #fb4c47;
   -webkit-box-shadow: 0px 8px 87px rgba(0, 0, 0, 0.1);
@@ -607,7 +604,6 @@ a {
 .about__inner-text {
   font-size: 20px;
   line-height: 215%;
-  text-transform: capitalize;
   margin-bottom: 56px;
 }
 
@@ -617,7 +613,6 @@ a {
   font-weight: 600;
   font-size: 20px;
   line-height: 24px;
-  text-transform: capitalize;
   color: #fa5652;
   padding: 22px 50px;
   text-align: center;
@@ -636,7 +631,6 @@ a {
 .symptomps__text,
 .recommendation__text {
   width: 100%;
-  text-transform: capitalize;
   margin: 0 auto;
 }
 
@@ -700,7 +694,6 @@ a {
 
 .contagion__item-text {
   line-height: 185%;
-  text-transform: capitalize;
   max-width: 355px;
   width: 100%;
   margin: 0 auto;
@@ -763,10 +756,6 @@ a {
   background-color: rgba(250, 86, 82, 0.15);
   border-radius: 50%;
   padding: 5px 14px 19px;
-}
-
-.recommendation__item-text {
-  text-transform: capitalize;
 }
 
 .recommendation__item-image {
@@ -1032,7 +1021,7 @@ a {
 .subscribe__form-button {
   background-color: #f44a45;
   border-radius: 157px;
-  padding: 26px 80px;
+  padding: 26px 40px;
   color: #fff;
   border: none;
   position: absolute;
@@ -1120,7 +1109,7 @@ a {
   }
 }
 
-@media (max-width: 945px) {
+@media (max-width: 1024px) {
   .menu-btn {
     display: block;
     width: 50px;
@@ -1169,14 +1158,6 @@ a {
     left: 15px;
   }
 
-  .title span {
-    font-size: 42px;
-  }
-
-  .title {
-    font-size: 28px;
-  }
-
   .menu {
     width: 100%;
   }
@@ -1196,9 +1177,9 @@ a {
 
   .menu__list {
     display: block;
-    -webkit-transform: translateY(-300%);
-        -ms-transform: translateY(-300%);
-            transform: translateY(-300%);
+    -webkit-transform: translateY(-130%);
+        -ms-transform: translateY(-130%);
+            transform: translateY(-130%);
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
@@ -1219,6 +1200,16 @@ a {
 
   .header__content {
     padding-top: 0;
+  }
+}
+
+@media (max-width: 945px) {
+  .title span {
+    font-size: 42px;
+  }
+
+  .title {
+    font-size: 28px;
   }
 
   .header__content-title {
